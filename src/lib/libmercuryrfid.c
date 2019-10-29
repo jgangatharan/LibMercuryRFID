@@ -485,8 +485,8 @@ int writeTagOLD(int readerId, uint8_t newEpcData[], uint8_t epcBytes)
       memcpy(newEpc.epc, newEpcData, newEpc.epcByteCount * sizeof(uint8_t));
 	  
 	  printf("We are about to write %d bytes \n",newEpc.epcByteCount);
-	  printf("Size of newEpcData %lu\n",sizeof(newEpcData) );
-	  printf("Size of newEpcData[0] %lu\n", sizeof(newEpcData[0]));
+	  //printf("Size of newEpcData %lu\n",sizeof(newEpcData) );
+	  //printf("Size of newEpcData[0] %lu\n", sizeof(newEpcData[0]));
 	  
 	  
 	  /* Initialize the new tagop to write the new epc*/	   
